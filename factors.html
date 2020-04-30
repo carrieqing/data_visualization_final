@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/comparison.css">
+  <!-- Others -->
+  <title>Suicides Rate Analysis Between 1985-2016</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="bg-primary navbar navbar-dark navbar-expand-md">
+    <a class="navbar-brand" href=".">Project</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href=".">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="overview.html">Overview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="factors.html">Factors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="trends.html">Trends</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Main -->
+  <main class="container-fluid">
+    <!-- Title -->
+    <div class="row">
+      <div class="col-12">
+        <div class="title">
+          <h2>Factors</h2>
+        </div>
+      </div>
+    </div>
+    <!-- Nav & Tab -->
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#tab-1" onclick="showTab1()">
+          Age
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#tab-2" onclick="showTab2()">
+          Gender
+        </a>
+      </li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane fade show active" id="tab-1">
+        <!-- Content -->
+        <div class="row">
+          <div class="col-md-3 column-content">
+
+          </div>
+          <div class="col-md-9 column-content">
+
+            <div class="card canvas" id="tab-1-canvas-1">
+              <!-- tableau 1 start  -->
+              <p> The relationship between age and suicides rate (per 100k population) shows that there are more suicides easily occurred for the people in 75+ years old, whereas for the group 5-14 years old is the fewest one. </p>
+            
+              <div class='tableauPlaceholder' id='test-qingqing-1' style='position: relative'>
+                <noscript>
+                  <a href='#'><img alt=' '
+                          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fa&#47;factors_age_1&#47;factors_age_1&#47;1_rss.png'
+                          style='border: none' />
+                  </a>
+                </noscript>
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='factors_age_1&#47;factors_age_1' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fa&#47;factors_age_1&#47;factors_age_1&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                </object>
+              </div>
+              <!-- tableau 1 end  -->
+
+            </div>
+
+            <div class="card canvas" id="tab-1-canvas-2">
+              <!-- tableau 2 start  -->
+              <p> For the change of suicide rate per year, the group 75+ years old decreased significantly and the group 5-14 years old changes slightly during different years.</p>
+
+              <div class='tableauPlaceholder' id='test-qingqing-2' style='position: relative'>
+                <noscript>
+                  <a href='#'>
+                  <img alt=' '
+                          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fa&#47;factors_age_2&#47;factors_age_2&#47;1_rss.png'
+                          style='border: none' />
+                  </a>
+                </noscript>
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='factors_age_2&#47;factors_age_2' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fa&#47;factors_age_2&#47;factors_age_2&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                </object>
+              </div>
+              <!-- tableau 2 end  -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade show active" id="tab-2">
+        <!-- Content -->
+        <div class="row">
+          <div class="col-md-12 column-content">
+          </div>
+          <div class="col-md-9 column-content">
+
+            <div class="card canvas" id="tab-2-canvas-1">
+
+              <!-- tableau 3 start  -->
+              <p>  For the gender factor, males have a higher suicides rate than females. Also, the suicides rate has a positive correlation with age for males, whereas for the females, it didn’t show similar situations. </p>
+
+              <div class='tableauPlaceholder' id='test-qingqing-3' style='position: relative'>
+
+                <noscript>
+                  <a href='#'><img alt=' '
+                          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ov&#47;overview_gender_1&#47;factors_gender_2&#47;1_rss.png'
+                          style='border: none' />
+                  </a>
+                </noscript>
+              
+                <object class='tableauViz' style='display:none;'>
+                  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                  <param name='embed_code_version' value='3' />
+                  <param name='site_root' value='' />
+                  <param name='name' value='overview_gender_1&#47;factors_gender_2' />
+                  <param name='tabs' value='no' />
+                  <param name='toolbar' value='yes' />
+                  <param name='static_image'
+                      value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ov&#47;overview_gender_1&#47;factors_gender_2&#47;1.png' />
+                  <param name='animate_transition' value='yes' />
+                  <param name='display_static_image' value='yes' />
+                  <param name='display_spinner' value='yes' />
+                  <param name='display_overlay' value='yes' />
+                  <param name='display_count' value='yes' />
+                </object>
+              </div>
+              <!-- tableau 3 end  -->
+
+            </div>
+
+            <div class="card canvas" id="tab-2-canvas-2">
+
+              <!-- tableau 4 start  -->
+              <p> The rate for male fluctuatd by year. Before 1994, it rised significantly and became smoothly after that.
+                Wheras, the change for female is not so significant and the suicides rate is much lower than the one of male. </p>
+
+
+              <div class='tableauPlaceholder' id='test-qingqing-4' style='position: relative'>
+                <noscript>
+                  <a href='#'><img alt=' '
+                          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fa&#47;factors_gender_2&#47;factors_gender_1&#47;1_rss.png'
+                          style='border: none' />
+                  </a>
+              </noscript>
+              
+              <object class='tableauViz' style='display:none;'>
+                  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                  <param name='embed_code_version' value='3' />
+                  <param name='site_root' value='' />
+                  <param name='name' value='factors_gender_2&#47;factors_gender_1' />
+                  <param name='tabs' value='no' />
+                  <param name='toolbar' value='yes' />
+                  <param name='static_image'
+                      value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fa&#47;factors_gender_2&#47;factors_gender_1&#47;1.png' />
+                  <param name='animate_transition' value='yes' />
+                  <param name='display_static_image' value='yes' />
+                  <param name='display_spinner' value='yes' />
+                  <param name='display_overlay' value='yes' />
+                  <param name='display_count' value='yes' />
+              </object>
+              </div>
+              <!-- tableau 4 end  -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <!-- tableau js code  -->
+  <script type='text/javascript'>
+    function loadTableau(id) {
+      let divElement = document.getElementById(id);
+      let vizElement = divElement.getElementsByTagName('object')[0];
+      vizElement.style.width = '100%';
+      vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+      let scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    }
+
+    loadTableau('test-qingqing-1');
+    loadTableau('test-qingqing-2');
+    loadTableau('test-qingqing-3');
+    loadTableau('test-qingqing-4');
+    showTab1();
+
+    function showTab1() {
+      document.getElementById("tab-1-canvas-1").style.display = "inline";
+      document.getElementById("tab-1-canvas-2").style.display = "inline";
+      document.getElementById("tab-2-canvas-1").style.display = "none";
+      document.getElementById("tab-2-canvas-2").style.display = "none";
+    }
+
+    function showTab2() {
+      document.getElementById("tab-1-canvas-1").style.display = "none";
+      document.getElementById("tab-1-canvas-2").style.display = "none";
+      document.getElementById("tab-2-canvas-1").style.display = "inline";
+      document.getElementById("tab-2-canvas-2").style.display = "inline";
+    }
+
+
+  </script>
+  <!-- end tableau js code  -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
